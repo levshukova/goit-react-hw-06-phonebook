@@ -24,9 +24,10 @@ const middleware = [
 ];
 
 const persistConfig = {
-  key: 'contacts',
+  key: 'something',
   storage,
   blacklist: ['filter'],
+  timeout: null,
 };
 
 export const store = configureStore({
